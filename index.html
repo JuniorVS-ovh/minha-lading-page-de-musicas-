@@ -1,0 +1,194 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VALDERNANDES - LionDev</title>
+  <meta name="description" content="Valdernandes Pereira da Silva Junior — Desenvolvedor | LionDev. Projetos, serviços e contato." />
+  <meta property="og:title" content="VALDERNANDES - LionDev" />
+  <meta property="og:description" content="Desenvolvedor — Projetos e serviços com energia leonina. Veja portfólio e entre em contato." />
+  <meta property="og:type" content="website" />
+  <meta name="author" content="Valdernandes Pereira da Silva Junior" />
+  <!-- JSON-LD básico para SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Valdernandes Pereira da Silva Junior",
+    "alternateName": "Valdernandes / LionDev",
+    "jobTitle": "Desenvolvedor",
+    "url": "",
+    "description": "Site de programação com identidade leonina — projetos, serviços e contato."
+  }
+  </script>
+  <!-- Observação: aqui você pode adicionar um link para seu CSS quando quiser -->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+  <!-- Skip link para acessibilidade -->
+  <a href="#main" style="position:absolute;left:-9999px;top:auto;">Ir para conteúdo principal</a>
+
+  <!-- Cabeçalho -->
+  <header role="banner">
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+    <div id="brand" aria-hidden="false">
+      <!-- Sigilo de leão simples em SVG (sem estilos externos) -->
+      <svg width="80" height="80" viewBox="0 0 100 100" role="img" aria-label="Sigilo de leão">
+        <!-- Circulo de fundo (pode ser estilizado via CSS posteriormente) -->
+        <circle cx="50" cy="50" r="48" fill="none" stroke="black" stroke-width="2"/>
+        <!-- Mane estilizada -->
+        <path d="M50 10 C35 20, 25 35, 23 52 C30 45, 28 70, 50 80 C72 70, 70 45, 77 52 C75 35, 65 20, 50 10 Z" fill="none" stroke="black" stroke-width="2"/>
+        <!-- Face -->
+        <circle cx="50" cy="50" r="12" fill="none" stroke="black" stroke-width="2"/>
+        <!-- Olhos -->
+        <circle cx="45" cy="48" r="1.5" fill="black"/>
+        <circle cx="55" cy="48" r="1.5" fill="black"/>
+        <!-- Nariz e boca estilizados -->
+        <path d="M50 52 L48 56 L52 56 Z" fill="black"/>
+        <path d="M48 58 C50 60, 50 60, 52 58" fill="none" stroke="black" stroke-width="1"/>
+      </svg>
+      <strong>VALDERNANDES • LionDev</strong>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="main" role="main">
+    <section id="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Valdernandes — LionDev</h1>
+      <p>Desenvolvedor — construindo aplicações sólidas com atitude, performance e design focado em resultados.</p>
+      <p>
+        <a href="#contact">Contrate-me</a> |
+        <a href="#projects">Ver portfólio</a>
+      </p>
+      <!-- Exemplo de destaque técnico (snippet pré-formatado) -->
+      <figure aria-hidden="false">
+        <figcaption>Snippet: Boilerplate de API Node</figcaption>
+        <pre><code>const express = require('express');
+const app = express();
+app.get('/', (req, res) =&gt; res.send('LionDev is roaring!'));
+app.listen(3000);</code></pre>
+      </figure>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">Sobre</h2>
+      <p>
+        Meu nome é <strong>Valdernandes Pereira da Silva Junior</strong>. Trabalho com desenvolvimento web e backend,
+        foco em performance, arquitetura limpa e soluções escaláveis. Leão de signo — liderança, coragem e presença nas entregas.
+      </p>
+      <ul>
+        <li>Principais stacks: JavaScript/TypeScript, Node.js, React, APIs REST/GraphQL</li>
+        <li>Experiência com deploys, CI/CD e automação</li>
+        <li>Trabalhos recentes: sistemas internos, SPAs e APIs de alta carga</li>
+      </ul>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projetos</h2>
+      <article aria-labelledby="proj1-title">
+        <h3 id="proj1-title">Projeto Alpha</h3>
+        <p>Plataforma de dashboards em tempo real para análise operacional.</p>
+        <p><a href="#" aria-label="Ver Projeto Alpha">Ver detalhes</a></p>
+      </article>
+
+      <article aria-labelledby="proj2-title">
+        <h3 id="proj2-title">API Blaze</h3>
+        <p>Microserviço escalável consumido por vários frontends e mobile apps.</p>
+        <p><a href="#" aria-label="Ver API Blaze">Ver detalhes</a></p>
+      </article>
+
+      <article aria-labelledby="proj3-title">
+        <h3 id="proj3-title">Open Source — Lion Tools</h3>
+        <p>Conjunto de utilitários para desenvolvedores focado em produtividade.</p>
+        <p><a href="#" aria-label="Repositório Lion Tools">Repositório</a></p>
+      </article>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Serviços</h2>
+      <ul>
+        <li>Desenvolvimento de aplicações web (frontend e backend)</li>
+        <li>Consultoria em arquitetura e performance</li>
+        <li>Auditoria de código e otimização</li>
+        <li>Mentoria e treinamentos técnicos</li>
+      </ul>
+      <p>Pacotes e valores sob consulta — entre em contato para proposta personalizada.</p>
+    </section>
+
+    <!-- Depoimentos (modelo simples) -->
+    <section id="testimonials" aria-labelledby="testimonials-title">
+      <h2 id="testimonials-title">Depoimentos</h2>
+      <blockquote>
+        <p>"Entregas de alta qualidade e prazo: Valder domina a arquitetura e resolve problemas complexos."</p>
+        <footer>— Cliente Satisfeito</footer>
+      </blockquote>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contato</h2>
+      <p>Preencha o formulário para receber uma proposta.</p>
+
+      <form action="#" method="post" aria-label="Formulário de contato">
+        <div>
+          <label for="name">Nome</label><br>
+          <input id="name" name="name" type="text" required placeholder="Seu nome completo">
+        </div>
+
+        <div>
+          <label for="email">E-mail</label><br>
+          <input id="email" name="email" type="email" required placeholder="seu@exemplo.com">
+        </div>
+
+        <div>
+          <label for="service">Serviço de interesse</label><br>
+          <select id="service" name="service">
+            <option>Desenvolvimento web</option>
+            <option>Consultoria</option>
+            <option>Auditoria</option>
+            <option>Mentoria</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message">Mensagem</label><br>
+          <textarea id="message" name="message" rows="6" placeholder="Descreva o projeto ou solicitação..."></textarea>
+        </div>
+
+        <div>
+          <button type="submit">Enviar mensagem</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+
+      <p>Ou mande um e-mail direto para: <a href="mailto:seu-email@exemplo.com">seu-email@exemplo.com</a></p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer role="contentinfo">
+    <p>© <time datetime="2025">2025</time> Valdernandes Pereira da Silva Junior — <span>LionDev</span></p>
+    <ul aria-label="Redes sociais">
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="#" aria-label="Twitter/X">X</a></li>
+    </ul>
+  </footer>
+
+  <noscript>
+    <p>Este site funciona melhor com JavaScript habilitado.</p>
+  </noscript>
+</body>
+</html>
